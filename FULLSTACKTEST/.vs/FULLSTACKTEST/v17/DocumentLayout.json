@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bhara\\Downloads\\TEST PROJECT\\FULLSTACKTEST\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|c:\\users\\bhara\\downloads\\testproject\\fullstacktest\\controllers\\policycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|solutionrelative:controllers\\policycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|c:\\users\\bhara\\downloads\\testproject\\fullstacktest\\data\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|solutionrelative:data\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|c:\\users\\bhara\\downloads\\testproject\\fullstacktest\\data\\policyholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|solutionrelative:data\\policyholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|c:\\users\\bhara\\downloads\\testproject\\fullstacktest\\data\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|solutionrelative:data\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|c:\\users\\bhara\\downloads\\testproject\\fullstacktest\\data\\ipolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|solutionrelative:data\\ipolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|c:\\users\\bhara\\downloads\\testproject\\fullstacktest\\data\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|solutionrelative:data\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|c:\\users\\bhara\\downloads\\testproject\\fullstacktest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D226C2D3-A9C8-407C-BB9C-25D786CE91B3}|FULLSTACKTEST.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +38,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PolicyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Data\\PolicyRepository.cs",
+              "RelativeDocumentMoniker": "Data\\PolicyRepository.cs",
+              "ToolTip": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Data\\PolicyRepository.cs",
+              "RelativeToolTip": "Data\\PolicyRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA2wBMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:57:18.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PolicyHolder.cs",
+              "DocumentMoniker": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Data\\PolicyHolder.cs",
+              "RelativeDocumentMoniker": "Data\\PolicyHolder.cs",
+              "ToolTip": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Data\\PolicyHolder.cs",
+              "RelativeToolTip": "Data\\PolicyHolder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:57:11.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Policy.cs",
+              "DocumentMoniker": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Data\\Policy.cs",
+              "RelativeDocumentMoniker": "Data\\Policy.cs",
+              "ToolTip": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Data\\Policy.cs",
+              "RelativeToolTip": "Data\\Policy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:57:07.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPolicyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Data\\IPolicyRepository.cs",
+              "RelativeDocumentMoniker": "Data\\IPolicyRepository.cs",
+              "ToolTip": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Data\\IPolicyRepository.cs",
+              "RelativeToolTip": "Data\\IPolicyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:56:28.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Data\\Gender.cs",
+              "RelativeDocumentMoniker": "Data\\Gender.cs",
+              "ToolTip": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Data\\Gender.cs",
+              "RelativeToolTip": "Data\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:56:23.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PolicyController.cs",
+              "DocumentMoniker": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Controllers\\PolicyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PolicyController.cs",
+              "ToolTip": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Controllers\\PolicyController.cs",
+              "RelativeToolTip": "Controllers\\PolicyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:55:53.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:54:50.985Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"

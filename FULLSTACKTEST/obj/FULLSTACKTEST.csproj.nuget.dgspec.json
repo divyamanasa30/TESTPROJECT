@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bhara\\Downloads\\TEST PROJECT\\FullStackTest\\FULLSTACKTEST.csproj": {}
+    "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\FULLSTACKTEST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bhara\\Downloads\\TEST PROJECT\\FullStackTest\\FULLSTACKTEST.csproj": {
+    "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\FULLSTACKTEST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bhara\\Downloads\\TEST PROJECT\\FullStackTest\\FULLSTACKTEST.csproj",
+        "projectUniqueName": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\FULLSTACKTEST.csproj",
         "projectName": "FULLSTACKTEST",
-        "projectPath": "C:\\Users\\bhara\\Downloads\\TEST PROJECT\\FullStackTest\\FULLSTACKTEST.csproj",
+        "projectPath": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\FULLSTACKTEST.csproj",
         "packagesPath": "C:\\Users\\bhara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bhara\\Downloads\\TEST PROJECT\\FULLSTACKTEST\\obj\\",
+        "outputPath": "C:\\Users\\bhara\\Downloads\\TESTPROJECT\\FULLSTACKTEST\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bhara\\AppData\\Roaming\\NuGet\\NuGet.Config",
