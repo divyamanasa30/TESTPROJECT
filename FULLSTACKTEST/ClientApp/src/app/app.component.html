@@ -1,0 +1,87 @@
+<div class="card">
+
+  <p-toolbar styleClass="mb-4 gap-2">
+    <ng-template pTemplate="left">
+      <button pButton pRipple label="New" icon="pi pi-plus" class="p-button-success mr-2" style="margin-right: 10px;" (click)="openNew()"></button>
+      <button pButton pRipple label="Delete" icon="pi pi-trash" class="p-button-danger" (click)="deleteSelectedProducts()" [disabled]="!selectedPolicy || !selectedPolicy.length"></button>
+    </ng-template>
+  </p-toolbar>
+
+
+  <p-table #dt [value]="policies" [rows]="10" [paginator]="true" [rowHover]="true" dataKey="PolicyNumber"
+           [(selection)]="selectedPolicy" [tableStyle]="{'min-width': '75rem'}"
+           selectionMode="single" currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries" [showCurrentPageReport]="true">
+
+    <ng-template pTemplate="caption">
+      <div class="flex align-items-center justify-content-between">
+        <h5 class="m-0">Manage Policies</h5>
+      </div>
+    </ng-template>
+
+
+    <ng-template pTemplate="header">
+      <tr>
+        <th style="width: 4rem">
+          <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+        </th>
+        <th style="text-align: left;" pSortableColumn="PolicyNumber">Policy Number <p-sortIcon field="PolicyNumber"></p-sortIcon></th>
+        <th style="text-align: left;" pSortableColumn="Name">Name<p-sortIcon field="Name"></p-sortIcon></th>
+        <th style="text-align: left;" pSortableColumn="Age">Age <p-sortIcon field="Age"></p-sortIcon></th>
+        <th style="text-align: left;" pSortableColumn="Gender">Gender<p-sortIcon field="Gender"></p-sortIcon></th>
+        <th></th>
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="body" let-policy>
+      <tr>
+        <td>
+          <p-tableCheckbox [value]="policy"></p-tableCheckbox>
+        </td>
+        <td>{{policy.PolicyNumber}}</td>
+        <td>{{policy.Name}}</td>
+        <td>{{policy.Age}}</td>
+        <td>{{policy.Gender}}</td>
+        <td>
+          <button pButton pRipple icon="pi pi-pencil" class="p-button-rounded p-button-success mr-2" (click)="editPolicy(policy)"></button>
+          <button pButton pRipple icon="pi pi-trash" class="p-button-rounded p-button-warning" (click)="deletePolicy(policy.PolicyNumber)"></button>
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
+
+<p-dialog [(visible)]="policyDialog" [style]="{width: '450px'}" header="Policy Details" [modal]="true">
+
+  <ng-template pTemplate="content">
+    <div class="field">
+      <label for="policyNumber" style="width: 120px; display: inline-block;">PolicyNumber</label>
+      <input type="text" pInputText id="policyNumber" [(ngModel)]="policy.PolicyNumber" required autofocus [disabled]="!newPolicy"/>
+      <small class="p-error" *ngIf="submitted && !policy.PolicyNumber">PolicyNumber is required.</small>
+    </div>
+
+    <div class="field">
+      <label for="Name" style="width: 120px; display: inline-block;">Name</label>
+      <input type="text" pInputText id="Name" [(ngModel)]="policy.Name" required autofocus />
+      <small class="p-error" *ngIf="submitted && !policy.Name">Name is required.</small>
+    </div>
+
+    <div class="field">
+      <label for="Age" style="width: 120px; display: inline-block;">Age</label>
+      <input type="text" pInputText id="Age" [(ngModel)]="policy.Age" required autofocus />
+      <small class="p-error" *ngIf="submitted && !policy.Age">Age is required.</small>
+    </div>
+
+    <div class="field">
+      <label for="Gender" style="width: 120px; display: inline-block;">Gender</label>
+      <input type="text" pInputText id="Gender" [(ngModel)]="policy.Gender" required autofocus />
+      <small class="p-error" *ngIf="submitted && !policy.Gender">Gender is required.</small>
+    </div>
+
+  </ng-template>
+
+  <ng-template pTemplate="footer">
+    <button pButton pRipple label="Cancel" icon="pi pi-times" class="p-button-text" (click)="hideDialog()"></button>
+    <button pButton pRipple label="Save" icon="pi pi-check" class="p-button-text" (click)="savePolicy(policy)"></button>
+  </ng-template>
+
+</p-dialog>

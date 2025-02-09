@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FULLSTACKTEST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1947528cb0b6173e4858b48b3f5d130db7158e2c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+816847caf9af23ee250d17dc0a338ef609a4e5f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("FULLSTACKTEST")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FULLSTACKTEST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,4 @@
-using System.Collections.Generic;
-using System.Linq;
+
 
 namespace FULLSTACKTEST.Data
 {
@@ -67,12 +66,17 @@ namespace FULLSTACKTEST.Data
 
         public void Remove(int policyNumber)
         {
-            var policy = _policies.SingleOrDefault(p => p.PolicyNumber == policyNumber);
+            var policiesCopy = _policies.ToList();  // Create a copy of the collection
 
-            if (policy != null)
-                _policies.Remove(policy);
+            foreach (var policy in policiesCopy)
+            {
+                if (policy.PolicyNumber == policyNumber)
+                {
+                    _policies.Remove(policy);  // Modify the original collection
+                }
+            }
         }
-
+            
         private readonly PolicyHolder _policyHolder1 = new PolicyHolder
         {
             Name = "Dwayne Johnson",

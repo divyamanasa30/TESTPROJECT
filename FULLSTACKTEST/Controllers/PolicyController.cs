@@ -22,5 +22,36 @@ namespace FULLSTACKTEST.Controllers
         {
             return _policyRepository.Get();
         }
+
+        [HttpPut]
+        public IActionResult Update([FromBody] Policy updatedPolicy)
+        {
+            if (updatedPolicy == null)
+            {
+                return NotFound("Policy not found.");
+            }
+            _policyRepository.Update(updatedPolicy);
+            return NoContent();
+        }
+
+
+        [HttpPost]
+        public IActionResult Add([FromBody] Policy addedPolicy)
+        {
+            if (addedPolicy == null)
+            {
+                return NotFound("Policy not found.");
+            }
+            _policyRepository.Add(addedPolicy);
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Remove(int id)
+        {
+            _policyRepository.Remove(id);
+            return NoContent();
+        }
+
     }
 }
